@@ -24,11 +24,15 @@ public class CALCULADORAESPECIAL1 {
         public void CALCULO_SENO () { //PRIMER METODO
             Seno = Math.sin (Num_001);
     } 
-     
+        public void CALCULO_COSENO1 (){ //SEGUNDO METODO
+            Coseno = Math.cos (Num_001);
+    }
+       
         public void RESULT_END001 (){
             System.out.println ("********************************************");
             System.out.println ("El seno de " + Num_001 + " es: " + Seno );
-            
+            System.out.println ("El Coseno de " + Num_001 + " es: " + Coseno );
+           
         }   
 }
       
