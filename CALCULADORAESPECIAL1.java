@@ -30,12 +30,16 @@ public class CALCULADORAESPECIAL1 {
         public void CALCULO_TANGENTE (){ //TERCER METODO
             Tangente = Math.tan (Num_001);
     }
-       
+        public void CALCULO_RAIZ (){ //CUARTO METODO
+           Raiz = Math.sqrt (Num_001);
+        
+    }
         public void RESULT_END001 (){
             System.out.println ("********************************************");
             System.out.println ("El seno de " + Num_001 + " es: " + Seno );
             System.out.println ("El Coseno de " + Num_001 + " es: " + Coseno );
             System.out.println ("La tangente de " + Num_001 + " es: " + Tangente );
+            System.out.println ("La raiz de " + Num_001 + " es: " + Raiz );
 
         }   
 }
